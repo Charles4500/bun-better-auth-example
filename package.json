@@ -4,12 +4,15 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start":"bun --watch index.ts"
+    "start": "bun --watch index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "better-auth": "^1.5.6"
   }
 }
