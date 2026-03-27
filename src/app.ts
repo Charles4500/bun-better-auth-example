@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import { openAPIRouteHandler } from "hono-openapi";
 import { Scalar } from "@scalar/hono-api-reference";
 import { cors } from "hono/cors";
-import { auth } from "./lib/auth";
+import { auth } from "@/lib/auth";
 import { userController } from "./routes/auth";
 
 const app = new Hono();
@@ -46,7 +46,7 @@ app.get(
       },
       servers: [
         {
-          url: "http://localhost:30003",
+          url: "http://localhost:3000",
           description: "Local server",
         },
       ],
