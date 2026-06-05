@@ -3,7 +3,8 @@
     "strict": true,
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
-    "baseUrl": "client/src",
+    "ignoreDeprecations": "6.0",
+    "baseUrl": "server/src",
     "paths": {
       "@/*": ["*"]
     }
